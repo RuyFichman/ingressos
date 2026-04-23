@@ -59,6 +59,19 @@ flutter:
   assets:
     - images/
 
+  fonts:
+    - family: CinzelDecorative
+      fonts:
+        - asset: fonts/cinzel_decorative_bold.otf
+
+    - family: HarryP
+      fonts:
+        - asset: fonts/harryp__.TTF
+
+  # family é o nome que escolhe para usar no código
+  # asset é o caminho real do arquivo
+  # após alterar pubspec.yaml rodar flutter pub get
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

@@ -299,7 +299,11 @@ class SummaryScreen extends StatelessWidget {
           children: [
             const Text(
               'Resumo da compra',
-              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'HarryP',
+              ),
             ),
             const SizedBox(height: 24),
             Row(
